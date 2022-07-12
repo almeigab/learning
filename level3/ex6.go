@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	i := 10
 
-	if i >= 10 {
-		fmt.Println("greater than 10")
+	if i == 10 {
+		fmt.Println("equals 10")
 	}
 }
